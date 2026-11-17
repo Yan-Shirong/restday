@@ -51,7 +51,7 @@
 <h2>2. 联网访问了哪些地方</h2>
 <p>App 只为获取公开数据而联网，请求里只有地区、年份或日历地址，不包含你的个人信息。下面这些服务会像访问任何网站一样看到你的 IP 地址等网络信息，并按它们各自的隐私政策处理：</p>
 <ul>
-  <li><b>中国大陆的节假日和调休</b>：<code>raw.githubusercontent.com</code>、<code>cdn.jsdelivr.net</code>（开源项目 holiday-cn 的数据）。</li>
+  <li><b>中国大陆的节假日和调休</b>：<code>raw.githubusercontent.com</code>、<code>cdn.jsdelivr.net</code>（开源项目 holiday-cn 的数据），以及 <code>registry.npmmirror.com</code>（开源项目 chinese-days 的数据）。App 里还内置了一份，联网取不到时使用。</li>
   <li><b>其他国家和地区的公共假期</b>：<code>date.nager.at</code>（Nager.Date）、<code>calendar.google.com</code>（Google 公开的节假日日历）。</li>
   <li><b>你订阅的日历</b>：你在 App 里订阅的日历地址，例如内置目录里的赛程日历（<code>ics.fixtur.es</code>、<code>files-f1.motorsportcalendars.com</code>、<code>www.smartcalendars.ai</code> 等），或你自己填写的地址。</li>
   <li><b>检测能否访问 Google</b>：打开日历页时访问一次 <code>www.google.com/generate_204</code>（一个空页面），只用来决定点开日程时用哪个搜索引擎。</li>
@@ -105,7 +105,7 @@
 <h2>2. Where the app connects</h2>
 <p>The app goes online only to fetch public data. Requests contain only a region, a year or a calendar address, never your personal information. Like any website, these services can see your IP address and other standard network information, and handle it under their own privacy policies:</p>
 <ul>
-  <li><b>Public holidays and make-up workdays in mainland China</b>: <code>raw.githubusercontent.com</code>, <code>cdn.jsdelivr.net</code> (data from the open-source project holiday-cn).</li>
+  <li><b>Public holidays and make-up workdays in mainland China</b>: <code>raw.githubusercontent.com</code>, <code>cdn.jsdelivr.net</code> (data from the open-source project holiday-cn) and <code>registry.npmmirror.com</code> (data from the open-source project chinese-days). A copy is also built into the app for when these cannot be reached.</li>
   <li><b>Public holidays in other countries and regions</b>: <code>date.nager.at</code> (Nager.Date) and <code>calendar.google.com</code> (Google's public holiday calendars).</li>
   <li><b>Calendars you subscribe to</b>: the addresses of calendars you subscribe to in the app, such as the sports calendars in the built-in catalog (<code>ics.fixtur.es</code>, <code>files-f1.motorsportcalendars.com</code>, <code>www.smartcalendars.ai</code>, etc.) or addresses you enter yourself.</li>
   <li><b>Checking whether Google is reachable</b>: when the calendar page opens, the app loads <code>www.google.com/generate_204</code> (an empty page) once, only to decide which search engine to use when you open an event.</li>
